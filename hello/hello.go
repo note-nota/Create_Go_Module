@@ -12,7 +12,7 @@ func main() {
 	// the log entry prefix and a flag to disable printing
 	// the time, source file, and line number.
 	log.SetPrefix("greetings: ")
-	log.SetFlags(0)
+	log.SetFlags(0) // log output date format flag, 0:non 1:day 2:time 3:date time ...
 
 	// A slice of names.
 	names := []string{"Gladys", "Samantha", "Darrin"}
